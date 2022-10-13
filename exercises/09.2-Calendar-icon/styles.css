@@ -11,7 +11,7 @@
 	border-radius: 3px;
 	position: absolute;
 }
-
+/*Alignment for calendar holes*/
 .calendar em {
 	display: inline-block;
 	font-size: 15px;
@@ -20,14 +20,14 @@
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
-/*Green holes for calendar*/
+/*colouring for calendar holes*/
 .calendar::before,
 .calendar:after {
 	content: "";
 	float: left;
 	width: 8px;
 	height: 8px;
-	background: rgb(98, 173, 0);
+	background: rgb(0, 0, 0);
 	z-index: 1;
 	border-radius: 10px;
 	box-shadow: 0 1px 1px #fff;
@@ -35,9 +35,11 @@
 }
 .calendar::before {
 	left: 11px;
+	top: -1px;
 }
 .calendar::after {
 	right: 11px;
+	top: -1px;
 }
 /*Calendar top rings*/
 .calendar em::before,
@@ -47,13 +49,16 @@
 	margin: 10px;
 	width: 4px;
 	height: 14px;
-	background: blue;
+	background: gray;
 	z-index: 2;
 	position: absolute;
+	border-radius: 10px;
 }
 .calendar em::before {
-	left: 13px;
+	left: 3px;
+	top: -20px;
 }
 .calendar em::after {
-	right: 13px;
+	right: 3px;
+	top: -20px;
 }
