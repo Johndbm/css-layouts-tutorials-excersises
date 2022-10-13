@@ -1,5 +1,36 @@
 /* your code here */
+body,
+html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
 
+.wrapper {
+	width: 900px;
+	height: 100%;
+	padding: 0px;
+	margin: 20px;
+}
+header {
+	height: 10%;
+	width: 900px;
+	text-align: center;
+	size: 20%;
+}
+/*Columns Nav+Section*/
+nav {
+	width: 200px;
+	height: 40%;
+	float: left;
+	padding: 2px;
+}
+section {
+	width: 700px;
+	height: 40%;
+	float: left;
+	padding: 2px;
+}
 /**************************************
 DON'T CHANGE ANYTHING AFTER THIS LINE
 **************************************/
