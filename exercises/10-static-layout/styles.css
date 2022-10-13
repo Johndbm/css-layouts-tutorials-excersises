@@ -4,6 +4,8 @@ html {
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
+	font-size: larger;
+	text-align: center;
 }
 
 .wrapper {
@@ -11,25 +13,27 @@ html {
 	height: 100%;
 	padding: 0px;
 	margin: 20px;
+	display: block;
 }
 header {
+	width: 100%;
 	height: 10%;
-	width: 900px;
 	text-align: center;
-	size: 20%;
 }
 /*Columns Nav+Section*/
 nav {
-	width: 200px;
+	width: 20%;
 	height: 40%;
 	float: left;
-	padding: 2px;
+	margin-right: 0.5%;
+	text-align: center;
 }
 section {
-	width: 700px;
+	width: 79%;
 	height: 40%;
 	float: left;
-	padding: 2px;
+	margin-left: 0.5%;
+	text-align: center;
 }
 /**************************************
 DON'T CHANGE ANYTHING AFTER THIS LINE
