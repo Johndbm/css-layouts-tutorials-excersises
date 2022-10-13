@@ -13,14 +13,14 @@
 }
 
 .calendar em {
-	display: block;
+	display: inline-block;
 	font-size: 15px;
 	color: #fff;
 	background: #04599a;
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
-/*Greem holes for calendar*/
+/*Green holes for calendar*/
 .calendar::before,
 .calendar:after {
 	content: "";
