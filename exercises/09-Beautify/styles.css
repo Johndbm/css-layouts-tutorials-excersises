@@ -1,6 +1,6 @@
 #wrapper-top-block {
 	background: transparent;
-	display: flex;
+	display: block;
 }
 #div1 {
 	background-color: red;
@@ -26,14 +26,14 @@
 	height: 100px;
 	width: 150px;
 	padding: 25px;
-	color: white;
+	color: black;
 	text-align: center;
 	overflow: hidden;
 	border-radius: 25px;
 }
 #wrapper-bottom-block {
 	background: transparent;
-	display: flex;
+	display: block;
 }
 #div4 {
 	background-color: blue;
