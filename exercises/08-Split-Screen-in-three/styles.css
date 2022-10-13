@@ -1,5 +1,7 @@
-body {
+body div {
 	margin: 0;
+	display: flex;
+	width: 33%;
 }
 #sectionA {
 	background: blue;
