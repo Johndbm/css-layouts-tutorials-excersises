@@ -1,9 +1,9 @@
 /* your code here */
 
 .wrapper {
-	width: 900px;
+	width: auto;
 	height: 100%;
-	padding: 0px;
+	padding: 5px;
 	margin: 20px;
 	display: block;
 }
