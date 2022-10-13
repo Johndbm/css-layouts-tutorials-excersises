@@ -20,7 +20,7 @@
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
-
+/*Greem holes for calendar*/
 .calendar::before,
 .calendar:after {
 	content: "";
@@ -39,7 +39,7 @@
 .calendar::after {
 	right: 11px;
 }
-
+/*Calendar top rings*/
 .calendar em::before,
 .calendar em::after {
 	content: "";
